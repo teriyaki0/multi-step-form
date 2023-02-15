@@ -1,0 +1,24 @@
+.root {
+    height: 100%;
+    display: flex;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 150px 0 auto 0;
+
+        .title {
+            color: #082654;
+            font-weight: 700;
+            font-size: 28px;
+            margin: 20px 0 15px 0;
+        }
+
+        .sub_title {
+            text-align: center;
+            color: #B8B8BE;
+            line-height: 22px;
+        }
+    }
+}

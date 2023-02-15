@@ -1,0 +1,107 @@
+.root {
+    display: flex;
+
+    justify-content: space-between;
+
+
+
+    .plan {
+        border: 1px solid #c4c2d1;
+        border-radius: 9px;
+        width: 140px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 18px 11px;
+        cursor: pointer;
+        
+        &[data-selected='true'] {
+            background: #F8F9FE;
+            border: 2px solid #A9A4CB;
+        }
+
+        &:hover {
+            border: 2px solid #A9A4CB;
+        }
+
+        .title {
+            color: #3E4F67;
+            margin: 0 0 5px 0;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .price {
+            font-weight: 700;
+            font-size: 14px;
+            color: #B0B0BA;
+            margin: 0 0 7px 0;
+        }
+
+        b {
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+
+
+}
+
+form {
+    height: 456px;
+
+    .switch {
+        display: flex;
+        background: #F8F9FE;
+        border-radius: 5px;
+        width: 460px;
+        height: 48px;
+        margin: 33px 0 0 0;
+        align-items: center;
+        justify-content: center;
+
+        input[type=checkbox] {
+            height: 0;
+            width: 0;
+            visibility: hidden;
+            display: none;
+        }
+
+        label {
+            cursor: pointer;
+            width: 40px;
+            height: 21px;
+            background: #03285C;
+            display: block;
+            border-radius: 100px;
+            position: relative;
+            margin: 0 25px;
+        }
+
+        label:after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 4px;
+            width: 15px;
+            height: 15px;
+            background: #fff;
+            border-radius: 90px;
+            transition: 0.3s;
+        }
+
+        input:checked+label:after {
+            left: calc(100% - 5px);
+            transform: translateX(-100%);
+        }
+
+        label:active:after {
+            width: 30px;
+        }
+    }
+
+
+
+}

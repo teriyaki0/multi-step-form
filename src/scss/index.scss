@@ -1,0 +1,64 @@
+@import 'reset.scss';
+@import 'fonts.scss';
+$white: #FFFFFF;
+
+body {
+    background-color: #EEF5FF;
+    font-family: 'Ubuntu-Regular';
+}
+
+.title {
+    color: #05254D;
+    font-family: 'Ubuntu-Medium';
+    font-size: 32px;
+    font-style: normal;
+}
+
+.sub_title {
+    color: #B2B2BA;
+    font-size: 16px;
+    margin: 14px 0 34px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.button_back {
+    margin-top: 65px;
+    border: none;
+    outline: none;
+    color: #04285A;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 14px 0;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button_next {
+    align-self: flex-end;
+    margin-top: 65px;
+    width: 135px;
+    border: none;
+    outline: none;
+    background-color: #174A89;
+    color: #D1E6FA;
+    font-size: 20px;
+    padding: 14px 0;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 150ms ease-in-out;
+
+    &.confirm {
+        background-color: #483EFF;
+    }
+}
+
+.button_next:hover {
+    background-color: #05479a;
+}

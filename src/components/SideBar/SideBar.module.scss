@@ -1,0 +1,69 @@
+.root {
+    background-image: url(../../assets/images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    width: 274px;
+    height: 568px;
+    padding: 40px 32px;
+}
+
+.step {
+    display: flex;
+
+    .count {
+        position: relative;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        border: 2px solid #EAECFD;
+        margin-bottom: 35px;
+
+
+
+        span {
+            font-family: 'Ubuntu-Bold';
+            line-height: 1px;
+            color: #EAECFD;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+
+        &.active {
+            background-color: #BDE1FE;
+            border: none;
+
+            span {
+                color: #072854;
+            }
+        }
+    }
+
+    .count[data-active="true"] {
+        background-color: #BDE1FE;
+        border: none;
+
+        span {
+            color: #072854;
+        }
+    }
+
+    .title {
+        margin: 0 0 0 13px;
+        text-transform: uppercase;
+
+        span {
+            color: #7F90A8;
+        }
+
+        h2 {
+            font-family: 'Ubuntu-Bold';
+            color: #fff;
+            letter-spacing: 1px;
+            margin: 7px 0 0 0;
+        }
+    }
+}

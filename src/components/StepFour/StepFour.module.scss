@@ -1,0 +1,61 @@
+.root {
+    background-color: #F8F9FE;
+    padding: 23px;
+    border-radius: 5px;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .plan {
+            margin: 0 0 10px 0;
+
+            .title {
+                margin: 0 0 10px 0;
+                color: #445473;
+                font-weight: 600;
+            }
+
+            .change {
+                color: #A5A5AF;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        .addons {
+            margin: 20px 0 0 0;
+
+            .change {
+                color: #B5B5B7;
+                font-size: 16px;
+            }
+        }
+
+        b.price {
+            font-weight: 600;
+
+        }
+
+        .price {
+            color: #15273A;
+        }
+    }
+}
+
+.total {
+    display: flex;
+    padding: 23px;
+    justify-content: space-between;
+
+    .change {
+        color: #B5B5B7;
+    }
+
+    .price {
+        color: #493DD0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
