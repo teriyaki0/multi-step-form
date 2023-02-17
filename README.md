@@ -9,8 +9,7 @@ Users have the opportunity:
   <li>See a summary of their selections on the final step and confirm their order</li>
   <li>View the optimal layout for the interface depending on their device's screen size</li>
   <li>See hover and focus states for all interactive elements on the page</li>
-  <li>Receive form validation messages if:</li>
-  <li>Пункт 2 
+  <li>Receive form validation messages if:
     <ul>
       <li>A field has been missed</li>
       <li>The email address is not formatted correctly</li>
