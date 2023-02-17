@@ -31,8 +31,8 @@ Users have the opportunity:
 
 <img src="https://a.radikal.host/2023/02/18/picture1.jpg" alt="picture1.jpg" border="0">
 
-<img src="https://a.radikal.host/2023/02/18/picture2.jpg" alt="picture2.jpg" border="0">
+<img src="https://b.radikal.host/2023/02/18/picture2.jpg" alt="picture2.jpg" border="0">
 
-<img src="https://a.radikal.host/2023/02/18/picture3.jpg" alt="picture3.jpg" border="0">
+<img src="https://b.radikal.host/2023/02/18/picture3.jpg" alt="picture3.jpg" border="0">
 
-<img src="https://a.radikal.host/2023/02/18/picture4.jpg" alt="picture4.jpg" border="0">
+<img src="https://d.radikal.host/2023/02/18/picture4.jpg" alt="picture4.jpg" border="0">
