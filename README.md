@@ -27,15 +27,12 @@ Users have the opportunity:
 
 ### Screenshot
 
-![image](https://radikal.host/i/JknAeQ)
+![image](https://radikal.host/i/JknAeQ](https://a.radikal.host/2023/02/18/picture.jpg" alt="picture.jpg)
 
-![image](https://radikal.host/i/JkksJr)
+![image](https://radikal.host/i/JkksJr](https://a.radikal.host/2023/02/18/picture1.jpg" alt="picture1.jpg)
 
-![image](https://radikal.host/i/JknXRK)
+![image](https://radikal.host/i/JknAeQ](https://a.radikal.host/2023/02/18/picture2.jpg" alt="picture2.jpg)
 
-![image](https://radikal.host/i/JknJwo)
+![image](https://radikal.host/i/JknAeQ](https://a.radikal.host/2023/02/18/picture3.jpg" alt="picture3.jpg)
 
-
-![image](https://radikal.host/i/JknTuz)
-
-
+![image](https://radikal.host/i/JknAeQ](https://a.radikal.host/2023/02/18/picture4.jpg" alt="picture4.jpg)
